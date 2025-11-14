@@ -10,49 +10,10 @@ const onest = Onest({
 });
 
 export const metadata: Metadata = {
-  title: "FOTG Mobile - Professional Mobile Repair Services",
+  title: "Fotgmobile",
   description:
-    "FOTG Mobile provides fast, reliable, and affordable mobile repair services for smartphones, tablets, and more. Quality guaranteed repairs in Dallas, Texas.",
-  keywords: ["mobile repair", "phone repair", "smartphone repair", "tablet repair", "Dallas", "Texas"],
-  authors: [{ name: "FOTG Mobile" }],
-  icons: {
-    icon: "/logo.png",
-    shortcut: "/logo.png",
-    apple: "/logo.png",
-  },
-  openGraph: {
-    title: "FOTG Mobile - Professional Mobile Repair Services",
-    description: "Fast, reliable, and affordable mobile repair services in Dallas, Texas. Quality guaranteed repairs for all your devices.",
-    url: "https://fotgmobile.com",
-    siteName: "FOTG Mobile",
-    images: [
-      {
-        url: "/logo.png",
-        width: 1200,
-        height: 630,
-        alt: "FOTG Mobile Logo",
-      },
-    ],
-    locale: "en_US",
-    type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "FOTG Mobile - Professional Mobile Repair Services",
-    description: "Fast, reliable, and affordable mobile repair services in Dallas, Texas.",
-    images: ["/logo.png"],
-  },
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      "max-video-preview": -1,
-      "max-image-preview": "large",
-      "max-snippet": -1,
-    },
-  },
+    "Online platform for device repair",
+  generator: "v0.app",
 };
 
 export default function RootLayout({
